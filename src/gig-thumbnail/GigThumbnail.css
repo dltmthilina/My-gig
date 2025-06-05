@@ -1,0 +1,92 @@
+.gig-container {
+  position: relative;
+  width: 1280px;
+  height: 720px;
+  background-image: url("./../assets/Background.png");
+  background-size: cover;
+  margin: auto;
+}
+
+.man-image {
+  position: absolute;
+  bottom: 107px;
+  left: 107px;
+
+  height: auto;
+}
+
+.title-container {
+  position: relative;
+  width: fit-content;
+  padding: 1rem;
+  left: 350px;
+  top: 45px;
+}
+
+.title-part-one,
+.title-part-two {
+  position: absolute;
+}
+
+.title-part-one {
+  display: flex;
+  gap: 1rem;
+}
+
+.title-part-two {
+  top: 150px;
+  left: 190px;
+}
+
+.frontend {
+  font-size: 100pt;
+  color: #f6e20c;
+  font-weight: 300;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: 3px #7f00b4;
+}
+
+.web {
+  font-size: 102pt;
+  color: #ffffff;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 3px #5f006d;
+}
+
+.development {
+  font-size: 72pt;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 3px #640074;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 290px;
+  left: 530px;
+  gap: 2px;
+}
+
+.contact {
+  position: absolute;
+  font-size: 80pt;
+  color: #f6e20c;
+  font-weight: 300;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: 2px #7f00b4;
+  bottom: 30px;
+  left: 130px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  color: #f6e20c;
+  font-size: 10pt;
+}
